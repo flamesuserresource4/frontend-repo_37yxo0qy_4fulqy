@@ -3,9 +3,17 @@
 > vite
 
 
-  VITE v5.4.20  ready in 264 ms
+  VITE v5.4.20  ready in 291 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.53:3000/
-9:05:02 AM [vite] ✨ new dependencies optimized: framer-motion, lucide-react
-9:05:02 AM [vite] ✨ optimized dependencies changed. reloading
+9:07:47 AM [vite] warning: The character ">" is not valid inside a JSX element
+54 |                  <div className="max-w-[80%] rounded-lg bg-white/5 px-3 py-2 text-sm text-slate-100">Wie setze ich mein Passwort zurück?</div>
+55 |                  <div className="flex justify-end">
+56 |                    <div className="max-w-[80%] rounded-lg bg-blue-500/20 px-3 py-2 text-sm text-slate-100">Gehe zu Konto > Sicherheit und klicke auf "Passwort ändern". Du erhältst eine E-Mail-Bestätigung.</div>
+   |                                                                                                                          ^
+57 |                  </div>
+58 |                  <div className="max-w-[85%] rounded-lg bg-white/5 px-3 py-2 text-sm text-slate-100">Ich kann mich nicht bei VPN anmelden.</div>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx

@@ -6,19 +6,16 @@ import CTA from './components/CTA'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950">
-      {/* Soft grid + blueprint vibe */}
-      <div className="pointer-events-none fixed inset-0 opacity-[0.035] [background-image:linear-gradient(to_right,white_1px,transparent_1px),linear-gradient(to_bottom,white_1px,transparent_1px)] [background-size:48px_48px]" />
-
-      {/* Ambient gradient */}
-      <div className="fixed inset-0 -z-10 bg-[radial-gradient(800px_circle_at_10%_10%,rgba(59,130,246,0.18),transparent),radial-gradient(600px_circle_at_90%_20%,rgba(59,130,246,0.12),transparent),linear-gradient(180deg,rgba(2,6,23,1),rgba(2,6,23,1))]" />
-
+    <div className="min-h-screen bg-slate-950 text-slate-100">
       <Navbar />
-      <Hero />
-      <Features />
-      <CTA />
 
-      <footer className="py-10 text-center text-xs text-blue-100/60">© {new Date().getFullYear()} Aether Labs. Alle Rechte vorbehalten.</footer>
+      <main>
+        <Hero />
+        <Features />
+        <CTA />
+      </main>
+
+      <footer className="py-10 text-center text-xs text-slate-400 border-t border-white/5">© {new Date().getFullYear()} Internes Support-Portal</footer>
     </div>
   )
 }
